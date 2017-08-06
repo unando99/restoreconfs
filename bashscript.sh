@@ -12,6 +12,7 @@ echo "Completed software install. Copying config files"
 
 cp compton.conf ~/.config/
 cp i3/config ~/.config/i3/
+mkdir ~/.config/i3status/
 cp i3status/config ~/.config/i3status/
 
 echo "Config files done. Your system should now be restored."
