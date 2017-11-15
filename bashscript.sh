@@ -14,6 +14,7 @@ echo "Completed software install. Copying config files"
 sleep 5
 
 cp compton.conf ~/.config/
+mkdir ~/.config/i3/
 cp i3/config ~/.config/i3/
 mkdir ~/.config/i3status/
 cp i3status/config ~/.config/i3status/
