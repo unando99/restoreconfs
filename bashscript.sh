@@ -8,7 +8,7 @@ sudo apt update && sudo apt upgrade -y
 echo "Update Complete. Proceding with software install"
 sleep 5
 
-sudo apt install -y compton i3 i3lock feh volumeicon-alsa scrot
+sudo apt install -y compton i3 i3lock feh volumeicon-alsa scrot rofi
 
 echo "Completed software install. Copying config files"
 sleep 5
